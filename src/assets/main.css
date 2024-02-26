@@ -1,0 +1,31 @@
+
+#app {
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (center){
+  body {
+    display: flex;
+  }
+}
+body {
+  background-color: rgba(107, 93, 93, 0.26);
+}
+/* CSS for larger screens */
+@media (max-width: 768px) {
+  /* CSS for smaller screens */
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust other styles as needed */
+}
