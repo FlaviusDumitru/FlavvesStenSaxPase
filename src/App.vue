@@ -35,14 +35,6 @@ function setComputerAlternative (alt) {
 
 <template>
   <h1>Sten Sax Påse!</h1>
-  <h1>Instruktioner:<p>
-    Spelaren skall välja antigen Rock, Paper, Scissors, Spock, Lizard, Water eller Fire!:D
-  </p>
-  <p>
-    Spelarens val markeras med:</p> <h4>Röda borders</h4>
-  <p>
-    Och datorns val med färgen:</p> <h6>Gröna dotted linjer</h6>
-  </h1>
   <!--Val, ställning, result och button -->
   <GameAlternatives 
   @user-choice="setUserAlternative" 
@@ -75,14 +67,5 @@ h1 {
   cursor: pointer;
   border-radius: 10px;
 }
-h4 {
-  border-width: 0.1em;
-  border: 0.1em solid rgb(252, 0, 0);
-  width: 20%;
-}
 
-h6 {
-  border: 0.2em dashed greenyellow;
-  width: 20%;
-}
 </style>
